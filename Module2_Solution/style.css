@@ -1,33 +1,145 @@
 *{
 	box-sizing: border-box;
-	padding: 2px;
+	padding: 0;
 }
 
-body{
-	margin-right: 2%;
-}
 h1{
 	font-family: "Comic Sans MS", cursive sans-serif;
 	font-size: 30px;
 	text-align: center;
 }
+
+
 @media (min-width: 992px){
+	div{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	border: 2px solid rgba(91, 91, 91, 0.6);
+	width: 30%;
+	height: 100%;
+}
+
+.section_title{
+	position: relative;
+	text-align: center;
+	font-size:14px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+.title_box{
+	float: right;
+	position: relative;
+	top: 0%;
+	right: 0%;
+	height: 0.5%;
+	width: 18%;
+	background-color: rgba(112, 106, 106, 0.58);
+	border:1px solid solid rgba(91, 91, 91, 0.6);	
+	margin:0px 0px 1px 1px;
+
+}
+
+.ingredients{
+	float: left;
+}
 	#chicken{
-		float: left;
-		width: 30%;
-		height: 50%;
-    	background-color: red;
+    	background-color: rgba(213, 11, 11, 0.45);
 	}
 	#beef{
-		float: left;
-		width: 30%;
-		height: 50%;
-    	background-color: steelblue;
+    	background-color: rgba(37, 103, 228, 0.45);
 	}
 	#sushi{
-		float: left;
-		width: 30%;
-		height: 50%;
-    	background-color: green;
+    	background-color: rgba(20, 163, 22, 0.68);
 	}
 }
+
+@media (min-width: 768px) and (max-width: 991px){
+	div{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	border: 2px solid rgba(91, 91, 91, 0.6);
+	width: 30%;
+	height: 100%;
+}
+
+.section_title{
+	position: relative;
+	text-align: center;
+	font-size:14px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+.title_box{
+	float: right;
+	position: relative;
+	top: 0%;
+	right: 0%;
+	height: 0.5%;
+	width: 18%;
+	background-color: rgba(112, 106, 106, 0.58);
+	border:1px solid solid rgba(91, 91, 91, 0.6);	
+	margin:0px 0px 1px 1px;
+
+}
+
+.ingredients{
+	float: left;
+}
+	#chicken{
+		background-color: rgba(213, 11, 11, 0.45);
+	}
+	#beef{
+		background-color: rgba(37, 103, 228, 0.45);
+	};
+	}
+	#sushi{
+		background-color: rgba(20, 163, 22, 0.68);
+	}
+}
+@media (max-width: 767px){
+	div{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	border: 2px solid rgba(91, 91, 91, 0.6);
+	width: 30%;
+	height: 100%;
+}
+
+.section_title{
+	position: relative;
+	text-align: center;
+	font-size:14px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+.title_box{
+	float: right;
+	position: relative;
+	top: 0%;
+	right: 0%;
+	height: 0.5%;
+	width: 18%;
+	background-color: rgba(112, 106, 106, 0.58);
+	border:1px solid solid rgba(91, 91, 91, 0.6);	
+	margin:0px 0px 1px 1px;
+
+}
+
+.ingredients{
+	float: left;
+}
+	#chicken{
+		background-color: rgba(213, 11, 11, 0.45);
+	}
+	#beef{
+		background-color: rgba(37, 103, 228, 0.45);
+	};
+	}
+	#sushi{
+		background-color: rgba(20, 163, 22, 0.68);
+	}
+}
+
