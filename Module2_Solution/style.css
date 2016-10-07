@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+	padding: 2px;
+}
+
+body{
+	margin-right: 2%;
+}
+h1{
+	font-family: "Comic Sans MS", cursive sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+@media (min-width: 992px){
+	#chicken{
+		float: left;
+		width: 30%;
+		height: 50%;
+    	background-color: red;
+	}
+	#beef{
+		float: left;
+		width: 30%;
+		height: 50%;
+    	background-color: steelblue;
+	}
+	#sushi{
+		float: left;
+		width: 30%;
+		height: 50%;
+    	background-color: green;
+	}
+}
